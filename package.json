@@ -1,0 +1,25 @@
+{
+    "name": "schnek",
+    "displayName": "schnek",
+    "description": "Schnek numerical simulation setup files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "schnek",
+            "aliases": ["Schnek", "schnek"],
+            "extensions": [".schnek",".setup"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "schnek",
+            "scopeName": "source.schnek",
+            "path": "./syntaxes/schnek.tmLanguage.json"
+        }]
+    }
+}
